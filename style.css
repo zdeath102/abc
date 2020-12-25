@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(151, 219, 228);
+  }
+  table,th, td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    }
+  h1 {
+    color: rgb(70, 70, 196);
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+  }
+  p {
+    color: rgb(8, 4, 4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+    text-align: center;
+   
+  }
+  
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+td{
+  padding: 1%;
+  background-color: rgb(215, 202, 228);
+  color: rgb(21, 197, 197);
+  text-align:left;
+}
+th{padding: 1%;
+  background-color: rgb(182, 88, 88);
+  color: yellow;
+  text-align:left;
+}
+tr{
+  padding: 1%;
+  background-color: rgb(182, 88, 88);
+  color: yellow;
+  text-align:left;
+}
+.form{
+  padding:1.5%;
+  text-align:center;
+}
+.dong{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 200%;
+      color :black;
+      text-align: center;
+    }
